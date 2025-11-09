@@ -10,23 +10,28 @@
         <!-- Styles / Scripts -->
         @vite(['resources/css/app.css','resources/js/app.js'])
     </head>
-    <body class="font-avant">
+    <body >
         <div class="bg-white h-screen h-full py-6 sm:py-8 lg:py-12">
             <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
                 <div class="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
                     <div class="flex items-center gap-12">
-                        <img src="https://spb.godege.ru/wp-content/themes/regions-godege/design2021/img/header/logo2021.png" alt="УЦ Годограф" width="34" height="34">
-                        <h2 class="text-2xl font-avant font-bold text-black lg:text-3xl">Годограф</h2>
+                        <div class="flex items-center gap-1">
+                            <img src="https://spb.godege.ru/wp-content/themes/regions-godege/design2021/img/header/logo2021.png" alt="УЦ Годограф" width="34" height="34">
+                            <h2 class="font-avant font-bold text-black sm:text-md md:text-2xl lg:text-3xl">Годограф</h2>
+                        </div>
+                        <div>
+                            <p class="hidden text-gray-500 dark:text-gray-300 sm:block text-xs md:text-md lg:text-lg">
+                                Санкт-Петербургский филиал,
+                            </p>
+                            <p class="text-gray-500 dark:text-gray-300 sm:block text-xs md:text-md lg:text-lg">
+                                Проспект Ветеранов, д. 114, корп. 2
+                            </p>
 
-                        <p class="hidden max-w-screen-sm text-gray-500 dark:text-gray-300 md:block">
-                            This is a section of some simple filler text,
-                            also known as placeholder text. It shares some characteristics of a real written text.
-                        </p>
+                        </div>
                     </div>
 
-                    <a href="#"
-                       class="inline-block rounded-lg border bg-white dark:bg-gray-700 dark:border-none px-4 py-2 text-center text-sm font-semibold text-gray-500 dark:text-gray-200 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:px-8 md:py-3 md:text-base">
-                        More
+                    <a href="#" class="inline-block rounded-lg border bg-white px-4 py-2 text-center text-sm font-semibold text-black outline-none transition duration-100 hover:bg-gray-100  md:px-8 md:py-3 md:text-base main-button border-none">
+                        Войти
                     </a>
                 </div>
 

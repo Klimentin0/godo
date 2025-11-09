@@ -16,3 +16,8 @@
     src: url('../../public/fonts/avantgardectt-bold.woff2') format('woff2');
 }
 @theme {  --font-avant: AvantGardeCTT, sans-serif; }
+
+.main-button {
+    background-color: #FFEC00;
+    box-shadow: -2px -6px 25px inset rgb(255 178 0 / 60%);
+}
