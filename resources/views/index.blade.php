@@ -8,20 +8,14 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
         <!-- Styles / Scripts -->
-        @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-            @vite(['resources/css/app.css', 'resources/js/app.js'])
-        @else
-            <style>
-            </style>
-        @endif
+        @vite(['resources/css/app.css','resources/js/app.js'])
     </head>
-    <body class="">
+    <body class="font-avant">
         <div class="bg-white h-screen h-full py-6 sm:py-8 lg:py-12">
             <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
                 <div class="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
                     <div class="flex items-center gap-12">
                         <img src="https://spb.godege.ru/wp-content/themes/regions-godege/design2021/img/header/logo2021.png" alt="УЦ Годограф" width="34" height="34">
-                        <h2 class="text-2xl font-avant font-bold text-black-800 lg:text-3xl">Годограф</h2>
                         <h2 class="text-2xl font-avant font-bold text-black lg:text-3xl">Годограф</h2>
 
                         <p class="hidden max-w-screen-sm text-gray-500 dark:text-gray-300 md:block">

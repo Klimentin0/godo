@@ -1,12 +1,18 @@
-@import 'tailwindcss';
-@font-face {
-    font-family: AvantGardeCTT;
-    src: url('/fonts/avantgardectt.woff') format('woff');
-    font-weight: normal;
-}
+@import "tailwindcss";
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
 
 @font-face {
     font-family: AvantGardeCTT;
-    src: url('/fonts/avantgardectt_bold.woff') format('woff');
-    font-weight: bold;
+    font-weight: normal;
+    src: url('../../public/fonts/avantgardectt.woff2') format('woff2');
 }
+@font-face {
+    font-family: AvantGardeCTT;
+    font-weight: bold;
+    src: url('../../public/fonts/avantgardectt-bold.woff2') format('woff2');
+}
+@theme {  --font-avant: AvantGardeCTT, sans-serif; }
