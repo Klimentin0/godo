@@ -6,3 +6,4 @@ use App\Http\Controllers\SystemPageController;
 
 Route::get('/', [MainPageController::class, 'index']);
 Route::get('/system', [SystemPageController::class, 'index']);
+Route::get('/system/info', [SystemPageController::class, 'info']);

@@ -10,4 +10,9 @@ class SystemPageController extends Controller
     {
         return Inertia::render('System/Index');
     }
+
+    public function info()
+    {
+        return Inertia::render('System/pages/Info');
+    }
 }
