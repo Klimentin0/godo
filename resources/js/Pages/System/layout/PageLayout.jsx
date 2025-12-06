@@ -9,5 +9,4 @@ export default function PageLayout({children}) {
             <Main>{children}</Main>
         </div>
     )
-
 }
